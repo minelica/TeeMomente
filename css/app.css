@@ -2,6 +2,10 @@ body {
    background: #D0E4F5 url("https://cdn.wallpapersafari.com/51/79/y4m3of.jpg") no-repeat scroll 0 0;
 }
 
+.textLinks .beschreibungstext {
+   text-align: left !important;
+}
+
 /* --- Styles für menue.php --- */
 nav.bg-white {
    background-color: #4d7364 !important;
@@ -68,18 +72,21 @@ nav a:hover {
    font-weight: 600;
 }
 
-/* --- Styles für Produkte --- */
-article {
-   float: left;
-   padding: 20px;
-   width: 70%;
-   background-color: #f1f1f1;
-   height: 300px; /* only for demonstration, should be removed */
+/* --- Styles für Produkte (produkte.php, teearten.php, teezubehoer.php, sonstiges.php --- */
+.container {
+   display: flex;
+   align-items: center;
  }
- 
- /* Clear floats after the columns */
- section::after {
-   content: "";
-   display: table;
-   clear: both;
+
+ .container img {
+   width: 300px;
+   margin-right: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   border-radius: 8px;
+ }
+
+ .container p {
+   font-size: 18px;
  }

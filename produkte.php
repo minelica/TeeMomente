@@ -3,6 +3,101 @@ include('view/top.php');
 include('view/menue.php');
 ?>
 
+<?php
+
+$produkte = [
+    [
+        "name" => "Grüner Tee - Matcha Premium",
+        "beschreibung" => "Ein fein gemahlener, japanischer grüner Tee, reich an Antioxidantien.",
+        "preis" => 19.99,
+        "verpackung" => "Metallische Teedose"
+    ],
+    [
+        "name" => "Schwarzer Tee - Darjeeling First Flush",
+        "beschreibung" => "Ein luxuriöser schwarzer Tee aus den Darjeeling-Gärten.",
+        "preis" => 14.99,
+        "verpackung" => "Vakuumverpackt in umweltfreundlicher Verpackung"
+    ],
+    [
+        "name" => "Kräutertee - Kamille",
+        "beschreibung" => "Beruhigender Kamillentee, ideal zum Entspannen und Schlafen.",
+        "preis" => 6.99,
+        "verpackung" => "Papiertüten"
+    ],
+    [
+        "name" => "Früchtetee - Waldbeeren-Mix",
+        "beschreibung" => "Eine fruchtige Mischung aus Himbeeren, Brombeeren und Holunder.",
+        "preis" => 8.99,
+        "verpackung" => "Transparente, wiederverwendbare Verpackung"
+    ],
+    [
+        "name" => "Oolong Tee - Formosa Oolong",
+        "beschreibung" => "Ein traditioneller halbfermentierter Tee aus Taiwan mit einem süßen und fruchtigen Aroma.",
+        "preis" => 12.99,
+        "verpackung" => "Luftdicht in Vakuumbeuteln"
+    ],
+    [
+        "name" => "Teezubehör - Bambus-Teesieb",
+        "beschreibung" => "Handgefertigtes Bambus-Teesieb, ideal für losen Tee.",
+        "preis" => 4.99,
+        "verpackung" => "In einem Baumwollsäckchen"
+    ],
+    [
+        "name" => "Teezubehör - Matcha-Besen (Chasen)",
+        "beschreibung" => "Traditioneller japanischer Matcha-Besen aus Bambus.",
+        "preis" => 12.99,
+        "verpackung" => "Schlichte, japanische Verpackung"
+    ],
+    [
+        "name" => "Teezubehör - Teekanne aus Gusseisen",
+        "beschreibung" => "Robuste und stilvolle Gusseisen-Teekanne mit Sieb.",
+        "preis" => 39.99,
+        "verpackung" => "In einer eleganten Geschenkbox"
+    ],
+    [
+        "name" => "Teezubehör - Doppelwandige Teegläser (2er Set)",
+        "beschreibung" => "Stilvolle, doppelwandige Gläser, die den Tee lange warm halten.",
+        "preis" => 14.99,
+        "verpackung" => "In einem schlichten Karton"
+    ],
+    [
+        "name" => "Eistee-Sirup - Zitrone-Minz",
+        "beschreibung" => "Erfrischender Sirup für Eistee mit Zitronen- und Minzgeschmack.",
+        "preis" => 7.99,
+        "verpackung" => "Glasflasche mit Schraubverschluss"
+    ],
+    [
+        "name" => "Bio-Honig - Lavendel",
+        "beschreibung" => "Aromatischer Lavendelhonig, perfekt zum Süßen von Tee.",
+        "preis" => 9.99,
+        "verpackung" => "Glas"
+    ],
+    [
+        "name" => "Teedosen-Set (3er Set)",
+        "beschreibung" => "Stilvolle Teedosen aus Metall mit verschiedenen Designs.",
+        "preis" => 15.99,
+        "verpackung" => "In einer Geschenkbox"
+    ],
+];
+
+// Funktion zur Produktsuche (nicht case-sensitiv)
+function suche_produkte($produkte, $suchbegriff)
+{
+    $ergebnisse = [];
+    $suchbegriff = strtolower($suchbegriff); // Suchbegriff in Kleinbuchstaben umwandeln
+
+    foreach ($produkte as $produkt) {
+        // Name und Beschreibung in Kleinbuchstaben umwandeln und prüfen, ob der Suchbegriff enthalten ist
+        if (str_contains(strtolower($produkt['name']), $suchbegriff) || str_contains(strtolower($produkt['beschreibung']), $suchbegriff)) {
+            $ergebnisse[] = $produkt; // Produkt hinzufügen, wenn es passt
+        }
+    }
+
+    return $ergebnisse;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="de">
 

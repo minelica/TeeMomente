@@ -14,17 +14,34 @@ include('view/menue.php');
 </head>
 
 <body>
+
   <p class="titelStartseite">Teearten</p>
 
-  <section>
-  <img src="img/Produkt1.jpg" alt="Teearten" style="width:300px">
-  
-  <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-  </article>
-</section>
+  <div class="container">
+    <img src="img/Produkt1.jpg" alt="Produkt1">
+    <p>Dies ist ein Beispieltext, der rechts neben dem Bild angezeigt wird. </p>
+  </div>
+
+  <div class="container">
+    <p>Dies ist ein Beispieltext, der links neben dem Bild angezeigt wird. </p>
+    <img src="img/Produkt2.jpg" alt="Produkt2">
+  </div>
+
+  <div class="container">
+    <img src="img/Produkt3.jpg" alt="Produkt3">
+    <p>Dies ist ein Beispieltext, der rechts neben dem Bild angezeigt wird. </p>
+  </div>
+
+  <div class="container">
+    <p>Dies ist ein Beispieltext, der links neben dem Bild angezeigt wird. </p>
+    <img src="img/Produkt4.jpg" alt="Produkt4">
+  </div>
+
+  <div class="container">
+    <img src="img/Produkt5.jpg" alt="Produkt5">
+    <p>Dies ist ein Beispieltext, der rechts neben dem Bild angezeigt wird. </p>
+  </div>
+
 </body>
 
 </html>
@@ -32,3 +49,23 @@ include('view/menue.php');
 <?php
 include('view/bottom.php');
 ?>
+
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .container img {
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+  }
+
+  .container p {
+    font-size: 18px;
+  }
+</style>

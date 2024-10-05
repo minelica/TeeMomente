@@ -14,7 +14,19 @@ include('view/menue.php');
 </head>
 
 <body>
+
   <p class="titelStartseite">Sonstiges</p>
+
+  <div class="container">
+    <img src="img/Produkt10.jpg" alt="Produkt10">
+    <p>Dies ist ein Beispieltext, der rechts neben dem Bild angezeigt wird. </p>
+  </div>
+
+  <div class="container">
+    <p>Dies ist ein Beispieltext, der links neben dem Bild angezeigt wird. </p>
+    <img src="img/Produkt11.jpg" alt="Produkt11">
+  </div>
+
 </body>
 
 </html>
@@ -22,3 +34,23 @@ include('view/menue.php');
 <?php
 include('view/bottom.php');
 ?>
+
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .container img {
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+  }
+
+  .container p {
+    font-size: 18px;
+  }
+</style>

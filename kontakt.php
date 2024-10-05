@@ -15,13 +15,15 @@ include('view/menue.php');
 
 <body>
   <p class="titelStartseite">Kontakt</p>
-    <p>Bei Fragen oder Anregungen können Sie uns gerne kontaktieren:</p>
-    <p>Name: Minela Masinovic</p>
-    <p>Telefon: 0123 456789</p>
-    <p>E-Mail:
-      <a href="mailto: masinovicminela@gmail.com">masinovicminela@gmail.com</a>
+  <p class="beschreibungstext">Bei Fragen oder Anregungen können Sie uns gerne kontaktieren:</p>
+  <div class="textLinks">
+    <p class="beschreibungstext">Name: Minela Masinovic</p>
+    <p class="beschreibungstext">Telefon: 0123 456789</p>
+    <p class="beschreibungstext">E-Mail:
+      <a href="mailto:masinovicminela@gmail.com">masinovicminela@gmail.com</a>
     </p>
-    <p>Adresse: Rotebühlplatz 41, 70178 Stuttgart </p>
+    <p class="beschreibungstext">Adresse: Rotebühlplatz 41, 70178 Stuttgart </p>
+  </div>
 </body>
 
 </html>
@@ -29,3 +31,9 @@ include('view/menue.php');
 <?php
 include('view/bottom.php');
 ?>
+
+<style>
+  .textLinks .beschreibungstext {
+    text-align: left !important;
+  }
+</style>
