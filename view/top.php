@@ -9,22 +9,7 @@
 </head>
 
 <body>
-    <h1>TeeMomente</h1>
+    <h1>TeeMomente - Finde dein Glück in der Tasse</h1>
 </body>
 
 </html>
-
-<style>
-    .body {
-        background-color: #f3f4f6;
-    }
-
-    h1 {
-        color: blue;
-        font-weight: bolder;
-        font-size: 100px;
-        text-align: left;
-        margin-top: 50px;
-        margin-left: 50px;
-    }
-</style>

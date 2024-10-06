@@ -24,6 +24,7 @@ include('view/menue.php');
     </p>
     <p class="beschreibungstext">Adresse: Rotebühlplatz 41, 70178 Stuttgart </p>
   </div>
+  </br>
 </body>
 
 </html>
@@ -33,7 +34,5 @@ include('view/bottom.php');
 ?>
 
 <style>
-  .textLinks .beschreibungstext {
-    text-align: left !important;
-  }
+
 </style>

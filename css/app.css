@@ -1,9 +1,10 @@
 body {
-   background: #D0E4F5 url("https://cdn.wallpapersafari.com/51/79/y4m3of.jpg") no-repeat scroll 0 0;
+   background-color: #c1c6b2;
 }
 
 .textLinks .beschreibungstext {
    text-align: left !important;
+   margin-left: 50px !important;
 }
 
 /* --- Styles für menue.php --- */
@@ -35,7 +36,6 @@ nav a:hover {
    background-color: #4d7364 !important;
 }
 
-/* Textfarbe der Schaltfläche "Produkte" auf Weiß ändern */
 #dropdownNavbarLink {
    color: white !important;
 }
@@ -70,23 +70,32 @@ nav a:hover {
    color: #4d7364;
    margin-top: 20px;
    font-weight: 600;
+   margin-left: 50px;
+   margin-right: 50px;
 }
 
 /* --- Styles für Produkte (produkte.php, teearten.php, teezubehoer.php, sonstiges.php --- */
 .container {
    display: flex;
    align-items: center;
- }
+   justify-content: center;
+   margin: 0 auto;
+}
 
- .container img {
+.container img {
    width: 300px;
-   margin-right: 20px;
-   margin-top: 20px;
-   margin-bottom: 20px;
-   margin-left: 20px;
+   margin: 20px;
    border-radius: 8px;
- }
+}
 
- .container p {
+.container p {
    font-size: 18px;
- }
+}
+
+/* --- Styles für footer.php --- */
+footer {
+   background-color: #f3f4f6e1;
+   text-align: center;
+   padding: 20px;
+   margin-top: 20px;
+}

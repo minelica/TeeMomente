@@ -21,6 +21,7 @@ include('view/menue.php');
   <p class="beschreibungstext">Tee ist mehr als nur ein Getränk. Es ist ein Moment der Ruhe, ein Gesprächsstarter und vielleicht sogar der Beginn einer neuen Verbindung. Ob mit Freunden, Kollegen oder jemand Besonderem - eine Tasse Tee bringt Menschen zusammen. Wer weiß, vielleicht wartet die große Liebe in deiner nächsten Teetasse.</p>
   </br>
   <p class="beschreibungstext">In einer Welt voller Hektik ist Tee die perfekte Gelegenheit, innezuhalten und sich auf das Wesentliche zu konzentrieren: gute Gespräche und echte Verbindungen. Bei einer Tasse Tee öffnen sich Herzen und Seelen. Ob du alte Freunde triffst oder neue Menschen kennenlernst - Tee schafft eine besondere Atmosphäre der Wärme und Nähe. Lass dich von uns inspirieren und entdecke, wie Tee deine Welt verändern kann - vielleicht wartet das nächste große Abenteuer gleich um die Ecke.</p>
+  </br>
   <p class="beschreibungstext">TeeMomente bietet dir eine große Auswahl an Teesorten und Zubehör für jeden Geschmack. Entdecke unsere Welt des Tees und finde deinen ganz persönlichen Lieblingstee. Wir freuen uns auf dich!</p>
 </body>
 

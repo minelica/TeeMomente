@@ -19,27 +19,27 @@ include('view/menue.php');
 
   <div class="container">
     <img src="img/Produkt1.jpg" alt="Produkt1">
-    <p>Dies ist ein Beispieltext, der rechts neben dem Bild angezeigt wird. </p>
+    <p class="beschreibungstext">Dies Ein fein gemahlener, hochwertiger Matcha aus Japan, ideal für Teezeremonien oder als täglicher Energie-Kick. Reich an Antioxidantien. </br> Preis: 19,99 € (100 g)</p>
   </div>
 
   <div class="container">
-    <p>Dies ist ein Beispieltext, der links neben dem Bild angezeigt wird. </p>
+    <p class="beschreibungstext">Exklusiver Darjeeling-Tee aus der ersten Ernte, handgepflückt und voller blumiger Aromen. Perfekt für Teeliebhaber. </br> Preis: 14,99 € (100 g)</p>
     <img src="img/Produkt2.jpg" alt="Produkt2">
   </div>
 
   <div class="container">
     <img src="img/Produkt3.jpg" alt="Produkt3">
-    <p>Dies ist ein Beispieltext, der rechts neben dem Bild angezeigt wird. </p>
+    <p class="beschreibungstext">Ein beruhigender Kamillentee, ideal zum Entspannen und Entschleunigen. Natürlicher Genuss aus biologischem Anbau. </br> Preis: 6,99 € (50 g)</p>
   </div>
 
   <div class="container">
-    <p>Dies ist ein Beispieltext, der links neben dem Bild angezeigt wird. </p>
+    <p class="beschreibungstext">Eine fruchtige Mischung aus Waldbeeren, ideal für heiße oder kalte Zubereitungen. Fruchtig-süß und erfrischend. </br> Preis: 8,99 € (100 g)</p>
     <img src="img/Produkt4.jpg" alt="Produkt4">
   </div>
 
   <div class="container">
     <img src="img/Produkt5.jpg" alt="Produkt5">
-    <p>Dies ist ein Beispieltext, der rechts neben dem Bild angezeigt wird. </p>
+    <p class="beschreibungstext">Halbfermentierter Tee aus Taiwan mit süßen, fruchtigen Noten. Für Kenner, die nach einem besonderen Tee-Erlebnis suchen. </br> Preis: 12,99 € (100 g)</p>
   </div>
 
 </body>

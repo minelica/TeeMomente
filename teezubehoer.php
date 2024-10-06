@@ -19,27 +19,27 @@ include('view/menue.php');
 
   <div class="container">
     <img src="img/Produkt6.jpg" alt="Produkt6">
-    <p>Dies ist ein Beispieltext, der rechts neben dem Bild angezeigt wird. </p>
+    <p class="beschreibungstext">Dies ist ein Beispieltext, der rechts neben dem Bild angezeigt wird. </p>
   </div>
 
   <div class="container">
-    <p>Dies ist ein Beispieltext, der links neben dem Bild angezeigt wird. </p>
+    <p class="beschreibungstext">Dies ist ein Beispieltext, der links neben dem Bild angezeigt wird. </p>
     <img src="img/Produkt7.jpg" alt="Produkt7">
   </div>
 
   <div class="container">
     <img src="img/Produkt8.jpg" alt="Produkt8">
-    <p>Dies ist ein Beispieltext, der rechts neben dem Bild angezeigt wird. </p>
+    <p class="beschreibungstext">Dies ist ein Beispieltext, der rechts neben dem Bild angezeigt wird. </p>
   </div>
 
   <div class="container">
-    <p>Dies ist ein Beispieltext, der links neben dem Bild angezeigt wird. </p>
+    <p class="beschreibungstext">Dies ist ein Beispieltext, der links neben dem Bild angezeigt wird. </p>
     <img src="img/Produkt9.jpg" alt="Produkt9">
   </div>
 
   <div class="container">
     <img src="img/Produkt12.jpg" alt="Produkt12">
-    <p>Dies ist ein Beispieltext, der rechts neben dem Bild angezeigt wird. </p>
+    <p class="beschreibungstext">Dies ist ein Beispieltext, der rechts neben dem Bild angezeigt wird. </p>
   </div>
 
 </body>
