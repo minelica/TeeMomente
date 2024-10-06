@@ -49,23 +49,3 @@ include('view/menue.php');
 <?php
 include('view/bottom.php');
 ?>
-
-<style>
-  .container {
-    display: flex;
-    align-items: center;
-  }
-
-  .container img {
-    width: 300px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    border-radius: 8px;
-  }
-
-  .container p {
-    font-size: 18px;
-  }
-</style>
