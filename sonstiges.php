@@ -19,11 +19,11 @@ include('view/menue.php');
 
   <div class="container">
     <img src="img/Produkt10.jpg" alt="Produkt10">
-    <p class="beschreibungstext">Dies ist ein Beispieltext, der rechts neben dem Bild angezeigt wird. </p>
+    <p class="beschreibungstext">Frischer Zitrone-Minz-Sirup für erfrischende Eistee-Kreationen. Natürlich und ohne künstliche Zusätze. </br> Preis: 7,99 € (500 ml)</p>
   </div>
 
   <div class="container">
-    <p class="beschreibungstext">Dies ist ein Beispieltext, der links neben dem Bild angezeigt wird. </p>
+    <p class="beschreibungstext">Aromatischer Bio-Lavendelhonig, ideal zum Süßen von Tee oder als Aufstrich. Regional und nachhaltig produziert. </br> Preis: 9,99 € (250 g)</p>
     <img src="img/Produkt11.jpg" alt="Produkt11">
   </div>
 
