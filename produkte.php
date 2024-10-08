@@ -81,18 +81,14 @@ $produkte = [
 ];
 
 // Funktion zur Produktsuche (nicht case-sensitiv)
-function suche_produkte($produkte, $suchbegriff)
+function sucheProdukt($produkte, $suchbegriff)
 {
     $ergebnisse = [];
-    $suchbegriff = strtolower($suchbegriff); // Suchbegriff in Kleinbuchstaben umwandeln
-
     foreach ($produkte as $produkt) {
-        // Name und Beschreibung in Kleinbuchstaben umwandeln und prüfen, ob der Suchbegriff enthalten ist
-        if (str_contains(strtolower($produkt['name']), $suchbegriff) || str_contains(strtolower($produkt['beschreibung']), $suchbegriff)) {
-            $ergebnisse[] = $produkt; // Produkt hinzufügen, wenn es passt
+        if (stripos($produkt['name'], $suchbegriff) !== false || stripos($produkt['beschreibung'], $suchbegriff) !== false) {
+            $ergebnisse[] = $produkt;
         }
     }
-
     return $ergebnisse;
 }
 
@@ -113,6 +109,39 @@ function suche_produkte($produkte, $suchbegriff)
 
 <body>
     <p class="titelStartseite">Unsere Produkte im Überblick</p>
+
+    </br>
+
+    <!-- Suchformular -->
+    <form action="produkte.php" method="get">
+        <label for="suche">Suche:</label>
+        <input type="text" name="suche" id="suche">
+        <button type="submit">Suchen</button>
+    </form>
+
+    </br>
+
+    <!-- Tabelle -->
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Beschreibung</th>
+            <th>Preis</th>
+            <th>Verpackung</th>
+        </tr>
+        <tr>
+            <?php foreach ($produkte as $produkt) : ?>
+                <td><?= $produkt['name'] ?></td>
+                <td><?= $produkt['beschreibung'] ?></td>
+                <td><?= $produkt['preis'] ?> €</td>
+                <td><?= $produkt['verpackung'] ?></td>
+        </tr>
+    <?php endforeach; ?>
+    </table>
+
+    </br></br></br>
+
+    <!-- Carousel -->
     <div id="default-carousel" class="relative w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
         <div class="relative h-56 overflow-hidden rounded-lg md:h-96">

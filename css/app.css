@@ -99,3 +99,27 @@ footer {
    padding: 20px;
    margin-top: 20px;
 }
+
+/* --- Styles für Tabelle aus produkte.php --- */
+table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+th,
+td {
+   padding: 8px;
+   text-align: left;
+   border-bottom: 1px solid #ddd;
+   border-color: #4d7364;
+   border: 1px solid #4d7364;
+}
+
+th {
+   background-color: #4d7364;
+   color: white;
+}
+
+td {
+   background-color: #4d736469;
+}
