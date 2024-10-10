@@ -125,13 +125,13 @@ td {
 }
 
 /* -- Styles für chatbot.php -- */
-form {
+.chatbot_form {
    display: flex;
    justify-content: center;
    margin-top: 20px;
 }
 
-form input[name="prompt"] {
+.chatbot_form input[name="prompt"] {
    width: 300px;
    padding: 10px;
    border: 2px solid #FFD700;
@@ -140,7 +140,7 @@ form input[name="prompt"] {
    margin-right: 10px;
 }
 
-form input[type="submit"] {
+.chatbot_form input[type="submit"] {
    padding: 10px 20px;
    background-color: #FFD700;
    /* Goldene Hintergrundfarbe */
@@ -152,7 +152,7 @@ form input[type="submit"] {
    cursor: pointer;
 }
 
-form input[type="submit"]:hover {
+.chatbot_form input[type="submit"]:hover {
    background-color: #FFA500;
    /* Orange Hintergrundfarbe beim Hover */
 }
@@ -171,4 +171,48 @@ form input[type="submit"]:hover {
 
 #ollama-chatbot p {
    margin: 10px 0;
+}
+
+/* Styles für bestellung.php */
+.bestell_form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.bestell_form label {
+   margin-top: 10px;
+   font-weight: bold;
+   color: #FFD700;
+   /* Goldene Textfarbe */
+}
+
+.bestell_form input[type="text"],
+.bestell_form input[type="number"],
+.bestell_form select {
+   width: 300px;
+   padding: 10px;
+   border: 2px solid #FFD700;
+   /* Goldene Umrandung */
+   border-radius: 5px;
+   margin-top: 5px;
+}
+
+.bestell_form input[type="submit"] {
+   padding: 10px 20px;
+   background-color: #FFD700;
+   /* Goldene Hintergrundfarbe */
+   border: none;
+   border-radius: 5px;
+   color: #8B4513;
+   /* Braune Textfarbe */
+   font-weight: bold;
+   cursor: pointer;
+   margin-top: 20px;
+}
+
+.bestell_form input[type="submit"]:hover {
+   background-color: #FFA500;
+   /* Orange Hintergrundfarbe beim Hover */
 }
