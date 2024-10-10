@@ -25,6 +25,8 @@ include('view/menue.php');
     <p class="beschreibungstext">Adresse: Rotebühlplatz 41, 70178 Stuttgart </p>
   </div>
   </br>
+
+  <img src="img/Tee.jpg" alt="Tee" class="startseiteLogo">
 </body>
 
 </html>

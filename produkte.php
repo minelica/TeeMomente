@@ -112,15 +112,6 @@ function sucheProdukt($produkte, $suchbegriff)
 
     </br>
 
-    <!-- Suchformular -->
-    <form action="produkte.php" method="get">
-        <label for="suche">Suche:</label>
-        <input type="text" name="suche" id="suche">
-        <button type="submit">Suchen</button>
-    </form>
-
-    </br>
-
     <!-- Tabelle -->
     <table border="1">
         <tr>
