@@ -18,13 +18,17 @@ include('view/menue.php');
     <div class="content">
       <p class="titelStartseite">Kontakt</p>
       <p class="beschreibungstext">Bei Fragen oder Anregungen können Sie uns gerne kontaktieren:</p>
-      <div class="textLinks">
-        <p class="beschreibungstext">Name: Minela Masinovic</p>
-        <p class="beschreibungstext">Telefon: 0123 456789</p>
-        <p class="beschreibungstext">E-Mail:
-          <a href="mailto:masinovicminela@gmail.com">masinovicminela@gmail.com</a>
-        </p>
-        <p class="beschreibungstext">Adresse: Rotebühlplatz 41, 70178 Stuttgart </p>
+      </br>
+      <div class="container">
+        <div class="textLinks">
+          <p class="containertext_links">Name: Minela Masinovic</p>
+          <p class="containertext_links">Telefon: 0123 456789</p>
+          <p class="containertext_links">E-Mail:
+            <a href="mailto:teemomente.info@gmail.com">teemomente.info@gmail.com</a>
+          </p>
+          <p class="containertext_links">Adresse: Rotebühlplatz 41, 70178 Stuttgart </p>
+          </br>
+        </div>
       </div>
       </br>
 

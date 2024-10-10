@@ -12,6 +12,7 @@ include('config/config.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeeMomente</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
@@ -21,7 +22,7 @@ include('config/config.php');
             <p class="beschreibungstext">Willkommen bei TeeMomente! Ich bin dein persönlicher Chatbot und stehe dir gerne zur Verfügung. Wie kann ich dir helfen?</p>
 
             <form class="chatbot_form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                <input name="prompt"><input type="submit" value="Suche">
+                <input name="prompt"><button type="submit"><i class="fas fa-paper-plane"></i></button>
             </form>
             <?php
             if (isset($_POST['prompt'])) {

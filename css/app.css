@@ -13,6 +13,16 @@ body {
    margin-left: 50px !important;
 }
 
+.containertext_links {
+   text-align: left;
+   font-size: 20px;
+   color: white;
+   margin-top: 20px;
+   font-weight: 600;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
 /* --- Styles für menue.php --- */
 nav.bg-white {
    background-color: #4d7364 !important;
@@ -162,43 +172,33 @@ td {
 .chatbot_form input[name="prompt"] {
    width: 300px;
    padding: 10px;
-   border: 2px solid #FFD700;
-   /* Goldene Umrandung */
+   border: 2px solid #4d7364;
    border-radius: 5px;
    margin-right: 10px;
-}
-
-.chatbot_form input[type="submit"] {
-   padding: 10px 20px;
-   background-color: #FFD700;
-   /* Goldene Hintergrundfarbe */
-   border: none;
-   border-radius: 5px;
-   color: #8B4513;
-   /* Braune Textfarbe */
-   font-weight: bold;
-   cursor: pointer;
-}
-
-.chatbot_form input[type="submit"]:hover {
-   background-color: #FFA500;
-   /* Orange Hintergrundfarbe beim Hover */
 }
 
 #ollama-chatbot {
    margin: 20px auto;
    max-width: 600px;
    background-color: #FFFFFF;
-   /* Weiße Hintergrundfarbe */
    border-radius: 8px;
    padding: 20px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
    color: #000000;
-   /* Schwarze Textfarbe */
 }
 
 #ollama-chatbot p {
    margin: 10px 0;
+}
+
+.chatbot_form button {
+   border: none;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+.chatbot_form button i {
+   color: #4d7364;
 }
 
 /* Styles für bestellung.php */
@@ -212,8 +212,7 @@ td {
 .bestell_form label {
    margin-top: 10px;
    font-weight: bold;
-   color: #FFD700;
-   /* Goldene Textfarbe */
+   color: #4d7364;
 }
 
 .bestell_form input[type="text"],
@@ -221,26 +220,18 @@ td {
 .bestell_form select {
    width: 300px;
    padding: 10px;
-   border: 2px solid #FFD700;
-   /* Goldene Umrandung */
+   border: 2px solid #4d7364;
    border-radius: 5px;
    margin-top: 5px;
 }
 
 .bestell_form input[type="submit"] {
    padding: 10px 20px;
-   background-color: #FFD700;
-   /* Goldene Hintergrundfarbe */
+   background-color: #4d7364;
    border: none;
    border-radius: 5px;
-   color: #8B4513;
-   /* Braune Textfarbe */
+   color: #c1c6b2;
    font-weight: bold;
    cursor: pointer;
    margin-top: 20px;
-}
-
-.bestell_form input[type="submit"]:hover {
-   background-color: #FFA500;
-   /* Orange Hintergrundfarbe beim Hover */
 }
