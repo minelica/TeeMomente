@@ -15,26 +15,27 @@ include('config/config.php');
 </head>
 
 <body>
-    <p class="titelStartseite">Chatbot</p>
-    <p class="beschreibungstext">Willkommen bei TeeMomente! Ich bin dein persönlicher Chatbot und stehe dir gerne zur Verfügung. Wie kann ich dir helfen?</p>
+    <div class="wrapper">
+        <div class="content">
+            <p class="titelStartseite">Chatbot</p>
+            <p class="beschreibungstext">Willkommen bei TeeMomente! Ich bin dein persönlicher Chatbot und stehe dir gerne zur Verfügung. Wie kann ich dir helfen?</p>
 
-    <form class="chatbot_form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        <input name="prompt"><input type="submit" value="Suche">
-    </form>
-    <?php
-    if (isset($_POST['prompt'])) {
-        $payload = createPayload($_POST['prompt']);
-        $result = ollama_api_call($payload, $config['groq_api_key']);
-        echo '<p style="color:blue;">' . $_POST['prompt'] . '</p>';
-        echo '<p>' . nl2br($result['response']) . '</p>';
-    }
-    ?>
+            <form class="chatbot_form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                <input name="prompt"><input type="submit" value="Suche">
+            </form>
+            <?php
+            if (isset($_POST['prompt'])) {
+                $payload = createPayload($_POST['prompt']);
+                $result = ollama_api_call($payload, $config['groq_api_key']);
+                echo '<p style="color:blue;">' . $_POST['prompt'] . '</p>';
+                echo '<p>' . nl2br($result['response']) . '</p>';
+            }
+            ?>
+        </div>
+        <?php
+        include('view/bottom.php');
+        ?>
+    </div>
 </body>
 
 </html>
-
-
-<?php
-include('view/bottom.php');
-?>
-

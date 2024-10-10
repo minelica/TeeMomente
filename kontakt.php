@@ -14,26 +14,31 @@ include('view/menue.php');
 </head>
 
 <body>
-  <p class="titelStartseite">Kontakt</p>
-  <p class="beschreibungstext">Bei Fragen oder Anregungen können Sie uns gerne kontaktieren:</p>
-  <div class="textLinks">
-    <p class="beschreibungstext">Name: Minela Masinovic</p>
-    <p class="beschreibungstext">Telefon: 0123 456789</p>
-    <p class="beschreibungstext">E-Mail:
-      <a href="mailto:masinovicminela@gmail.com">masinovicminela@gmail.com</a>
-    </p>
-    <p class="beschreibungstext">Adresse: Rotebühlplatz 41, 70178 Stuttgart </p>
-  </div>
-  </br>
+  <div class="wrapper">
+    <div class="content">
+      <p class="titelStartseite">Kontakt</p>
+      <p class="beschreibungstext">Bei Fragen oder Anregungen können Sie uns gerne kontaktieren:</p>
+      <div class="textLinks">
+        <p class="beschreibungstext">Name: Minela Masinovic</p>
+        <p class="beschreibungstext">Telefon: 0123 456789</p>
+        <p class="beschreibungstext">E-Mail:
+          <a href="mailto:masinovicminela@gmail.com">masinovicminela@gmail.com</a>
+        </p>
+        <p class="beschreibungstext">Adresse: Rotebühlplatz 41, 70178 Stuttgart </p>
+      </div>
+      </br>
 
-  <img src="img/Tee.jpg" alt="Tee" class="startseiteLogo">
+      <img src="img/Tee.jpg" alt="Tee" class="startseiteLogo">
+    </div>
+    <?php
+    include('view/bottom.php');
+    ?>
+  </div>
 </body>
 
 </html>
 
-<?php
-include('view/bottom.php');
-?>
+
 
 <style>
 
