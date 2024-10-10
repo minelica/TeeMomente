@@ -18,13 +18,17 @@ include('view/menue.php');
     <div class="content">
       <p class="titelStartseite">Sonstiges</p>
 
-      <div class="container">
-        <img src="img/Produkt10.jpg" alt="Produkt10">
-        <p class="beschreibungstext">Frischer Zitrone-Minz-Sirup für erfrischende Eistee-Kreationen. Natürlich und ohne künstliche Zusätze. </br> Preis: 7,99 € (500 ml)</p>
-      </div>
+      </br>
 
       <div class="container">
-        <p class="beschreibungstext">Aromatischer Bio-Lavendelhonig, ideal zum Süßen von Tee oder als Aufstrich. Regional und nachhaltig produziert. </br> Preis: 9,99 € (250 g)</p>
+        <img src="img/Produkt10.jpg" alt="Produkt10">
+        <p class="containertext">Frischer Zitrone-Minz-Sirup für erfrischende Eistee-Kreationen. Natürlich und ohne künstliche Zusätze. </br> Preis: 7,99 € (500 ml)</p>
+      </div>
+
+      </br>
+
+      <div class="container">
+        <p class="containertext">Aromatischer Bio-Lavendelhonig, ideal zum Süßen von Tee oder als Aufstrich. Regional und nachhaltig produziert. </br> Preis: 9,99 € (250 g)</p>
         <img src="img/Produkt11.jpg" alt="Produkt11">
       </div>
     </div>
