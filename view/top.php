@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <h1>TeeMomente - Finde dein Glück in der Tasse</h1>
 </body>
 
 </html>
