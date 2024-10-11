@@ -60,7 +60,7 @@ nav a:hover {
    color: #ccc !important;
 }
 
-/* --- Styles für footer.php --- */
+/* --- Styles für bottom.php --- */
 footer {
    background-color: #f3f4f6e1;
    text-align: center;
@@ -109,6 +109,15 @@ footer {
 }
 
 /* --- Styles für Produkte (produkte.php, teearten.php, teezubehoer.php, sonstiges.php --- */
+.carousel {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   background-color: #4d7364;
+   border-radius: 8px;
+   width: 500px;
+}
 .container {
    display: flex;
    align-items: center;

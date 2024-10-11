@@ -133,7 +133,7 @@ function sucheProdukt($produkte, $suchbegriff)
             </table>
 
             </br></br></br>
-
+<div class="carousel">
             <!-- Carousel -->
             <div id="default-carousel" class="relative w-full" data-carousel="slide">
                 <!-- Carousel wrapper -->
@@ -212,6 +212,7 @@ function sucheProdukt($produkte, $suchbegriff)
                         <span class="sr-only">Next</span>
                     </span>
                 </button>
+            </div>
             </div>
         </div>
         <?php

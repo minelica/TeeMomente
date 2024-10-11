@@ -19,7 +19,7 @@ include('view/menue.php');
             <h1 class="titelStartseite">Bestellung</h1>
             <p class="beschreibungstext">Hier können Sie Ihre Bestellung aufgeben. Bitte füllen Sie das folgende Formular aus:</p>
 
-            <form class="bestell_form" action="bestellung_verarbeiten.php" method="post">
+            <form class="bestell_form" action="send.php" method="post">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
 
@@ -27,9 +27,9 @@ include('view/menue.php');
                 <input type="text" id="adresse" name="adresse" required>
 
                 <label for="email">E-Mail-Adresse:</label>
-                <input type="text" id="email" name="email" required>
+                <input type="email" id="email" name="email" required>
 
-                </br>
+                <br>
 
                 <label for="produkt">Produkt:</label>
                 <select id="produkt" name="produkt" required>
@@ -50,7 +50,7 @@ include('view/menue.php');
                 <label for="menge">Menge:</label>
                 <input type="number" id="menge" name="menge" min="1" required>
 
-                <input type="submit" value="Bestellen">
+                <input type="submit" name="Bestellen" value="Bestellen">
             </form>
         </div>
         <?php
