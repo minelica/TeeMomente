@@ -31,7 +31,7 @@ if (isset($_POST["Bestellen"])) {
 
     $mail->isHTML(true);
 
-    $mail->Subject = "Ihre Bestellung bei TeeMomente";
+    $mail->Subject = "Bestellbestaetigung TeeMomente";
     $message = "Hallo $name,\n\n";
     $message .= "Ihre Bestellung wurde erfolgreich aufgegeben:\n\n";
     $message .= "Name: $name\n";
