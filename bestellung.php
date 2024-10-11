@@ -27,7 +27,7 @@ include('view/menue.php');
                 <input type="text" id="adresse" name="adresse" required>
 
                 <label for="email">E-Mail-Adresse:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="text" id="email" name="email" required>
 
                 <br>
 
