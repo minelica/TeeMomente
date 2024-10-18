@@ -39,7 +39,7 @@ if (isset($_POST["Bestellen"])) {
     $message .= "Produkt: $produkt\n";
     $message .= "Menge: $menge\n\n";
     $message .= "Vielen Dank für den Einkauf!\n\n";
-    $message .= "Ihr TeeMomente-Team";
+    $message .= "Ihr TeeMomente Team";
     $mail->Body = nl2br($message);
 
     $mail->send();

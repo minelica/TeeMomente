@@ -1,10 +1,5 @@
 <?php
-$config = array(
-    'llm_model' => 'gemma2:2b',
-    'ollama_url' => 'http://localhost:11434/api/',
-    'system_prompt' => 'Du bist ein hilfreicher Verkaufsassistent bei einem Teehändler namens "TeeMomente"',
-    'groq_api_key' => 'abcdefghijklmnopqrstuvwxyz',
-    'products' => array(
+$products = array(
         'gruener_tee' => array(
             'name' => 'Grüner Tee - Matcha Premium',
             'description' => 'Ein fein gemahlener, japanischer grüner Tee, reich an Antioxidantien',
@@ -90,27 +85,4 @@ $config = array(
             'image' => 'images/teedosen_set.jpg'
         )
     )
-);
-
-function createPayload($prompt)
-{
-    global $config;
-    return array(
-        'model' => $config['llm_model'],
-        'system' => $config['system_prompt'],
-        'prompt' => trim($prompt),
-        'stream' => false,
-    );
-}
-
-function ollama_api_call($payload)
-{
-    $curl = curl_init();
-    curl_setopt($curl, CURLOPT_URL, 'http://localhost:11434/api/generate');
-    curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($payload));
-    curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
-    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-    $response = curl_exec($curl);
-    curl_close($curl);
-    return json_decode($response, true);
-}
+?>
