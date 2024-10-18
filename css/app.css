@@ -210,6 +210,11 @@ td {
    color: #4d7364;
 }
 
+.suche_name {
+   font-size: 24px;
+   font-weight: bold;
+}
+
 /* Styles für bestellung.php */
 .bestell_form {
    display: flex;

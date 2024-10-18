@@ -60,18 +60,3 @@ include('view/menue.php');
 </body>
 
 </html>
-
-
-
-<style>
-    form {
-        width: 50%;
-        margin: auto;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 100%
-    }
-</style>

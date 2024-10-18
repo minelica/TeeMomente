@@ -41,9 +41,3 @@ include('view/menue.php');
 </body>
 
 </html>
-
-
-
-<style>
-
-</style>

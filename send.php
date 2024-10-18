@@ -17,34 +17,34 @@ if (isset($_POST["Bestellen"])) {
 
     $mail = new PHPMailer(true);
     try {
-    $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
-    $mail->SMTPAuth = true;
-    $mail->Username = 'teemomente.info@gmail.com';
-    $mail->Password = 'xpvjohhjvbjeoqtv';
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-    $mail->Port = 465;
+        $mail->isSMTP();
+        $mail->Host = 'smtp.gmail.com';
+        $mail->SMTPAuth = true;
+        $mail->Username = 'teemomente.info@gmail.com';
+        $mail->Password = 'xpvjohhjvbjeoqtv';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        $mail->Port = 465;
 
-    $mail->setFrom('teemomente.info@gmail.com');
+        $mail->setFrom('teemomente.info@gmail.com');
 
-    $mail->addAddress($email);
+        $mail->addAddress($email);
 
-    $mail->isHTML(true);
+        $mail->isHTML(true);
 
-    $mail->Subject = "Bestellbestaetigung TeeMomente";
-    $message = "Hallo $name,\n\n";
-    $message .= "Ihre Bestellung wurde erfolgreich aufgegeben:\n\n";
-    $message .= "Name: $name\n";
-    $message .= "Adresse: $adresse\n";
-    $message .= "Produkt: $produkt\n";
-    $message .= "Menge: $menge\n\n";
-    $message .= "Vielen Dank für den Einkauf!\n\n";
-    $message .= "Ihr TeeMomente Team";
-    $mail->Body = nl2br($message);
+        $mail->Subject = "Bestellbestaetigung TeeMomente";
+        $message = "Hallo $name,\n\n";
+        $message .= "Ihre Bestellung wurde erfolgreich aufgegeben:\n\n";
+        $message .= "Name: $name\n";
+        $message .= "Adresse: $adresse\n";
+        $message .= "Produkt: $produkt\n";
+        $message .= "Menge: $menge\n\n";
+        $message .= "Vielen Dank für den Einkauf!\n\n";
+        $message .= "Ihr TeeMomente Team";
+        $mail->Body = nl2br($message);
 
-    $mail->send();
+        $mail->send();
 
-    echo "
+        echo "
         <script>
         alert('Ihre Bestellung wurde erfolgreich aufgegeben. Vielen Dank!');
         document.location.href = 'bestellung.php';
