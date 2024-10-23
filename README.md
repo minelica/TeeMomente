@@ -8,6 +8,7 @@
   - [Verwendung](#verwendung)
     - [Beispiel für eine Anfrage im Chatbot:](#beispiel-für-eine-anfrage-im-chatbot)
   - [E-Mail-Versand](#e-mail-versand)
+  - [Technologien](#technologien)
 
 ## Einführung
 TeeMomente ist eine Webseite für einen Teeladen, der eine Vielzahl von Teesorten und Teezubehör anbietet. Die Webseite enthält einen Chatbot, der den Kunden bei der Produktsuche unterstützt. Der Chatbot kann auf Anfragen wie "Kamille" reagieren und die entsprechenden Produkte mit ihren Eigenschaften und Bildern anzeigen.
@@ -32,3 +33,10 @@ Der Chatbot zeigt dann die Eigenschaften und das Bild des Kamillentees an.
 ## E-Mail-Versand
 Die Webseite verwendet PHPMailer zum Versenden von E-Mails. Wenn ein Nutzer der Webseite eine Bestellung aufgibt, muss er seine Daten eingeben und das gewünschte Produkt sowie die Menge auswählen. Danach erhält er eine E-Mail als Bestellbestätigung von TeeMomente Team.
 
+## Technologien
+In diesem Projekt wurden folgende Technologien verwendet:
+- **PHP**: Die serverseitige Programmiersprache, die in XAMPP verwendet wird.
+- **XAMPP**: Eine Entwicklungsumgebung, die Apache, MySQL, PHP und Perl enthält.
+- **Flowbite**: Eine UI-Bibliothek, die auf Tailwind CSS basiert und für die Gestaltung der Benutzeroberfläche verwendet wird.
+- **PHPMailer**: Eine Bibliothek zum Versenden von E-Mails.
+- **Node.js und npm**: Für die Verwaltung von Abhängigkeiten und das Erstellen von Frontend-Assets.
