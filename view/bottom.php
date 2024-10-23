@@ -1,3 +1,3 @@
 <footer>
-    <p>&copy; 2024 TeeMomente - Alle Rechte vorbehalten.</p>
+    <p>&copy; 2024 TeeMomente</p>
 </footer>
