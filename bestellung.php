@@ -33,18 +33,18 @@ include('view/menue.php');
 
                 <label for="produkt">Produkt:</label>
                 <select id="produkt" name="produkt" required>
-                    <option value="gruener_tee">Grüner Tee - Matcha Premium</option>
-                    <option value="schwarzer_tee">Schwarzer Tee - Darjeeling First Flush</option>
-                    <option value="kraeutertee">Kräutertee - Kamille</option>
-                    <option value="fruechtetee">Früchtetee - Waldbeeren-Mix</option>
-                    <option value="oolong_tee">Oolong Tee - Formosa Oolong</option>
-                    <option value="bambus_teesieb">Teezubehör - Bambus-Teesieb</option>
-                    <option value="matcha_besen">Teezubehör - Matcha-Besen (Chasen)</option>
-                    <option value="teekanne">Teezubehör - Teekanne aus Gusseisen</option>
-                    <option value="teeglaeser">Teezubehör - Doppelwandige Teegläser (2er Set)</option>
-                    <option value="eistee_sirup">Eistee-Sirup - Zitrone-Minz</option>
-                    <option value="bio_honig">Bio-Honig - Lavendel</option>
-                    <option value="teedosen_set">Teedosen-Set (3er Set)</option>
+                    <option value="Grüner Tee - Matcha Premium">Grüner Tee - Matcha Premium</option>
+                    <option value="Schwarzer Tee - Darjeeling First Flush">Schwarzer Tee - Darjeeling First Flush</option>
+                    <option value="Kräutertee - Kamille">Kräutertee - Kamille</option>
+                    <option value="Früchtetee - Waldbeeren-Mix">Früchtetee - Waldbeeren-Mix</option>
+                    <option value="Oolong Tee - Formosa Oolong">Oolong Tee - Formosa Oolong</option>
+                    <option value="Teezubehör - Bambus-Teesieb">Teezubehör - Bambus-Teesieb</option>
+                    <option value="Teezubehör - Matcha-Besen (Chasen)">Teezubehör - Matcha-Besen (Chasen)</option>
+                    <option value="Teezubehör - Teekanne aus Gusseisen">Teezubehör - Teekanne aus Gusseisen</option>
+                    <option value="Teezubehör - Doppelwandige Teegläser (2er Set)">Teezubehör - Doppelwandige Teegläser (2er Set)</option>
+                    <option value="Eistee-Sirup - Zitrone-Minz">Eistee-Sirup - Zitrone-Minz</option>
+                    <option value="Bio-Honig - Lavendel">Bio-Honig - Lavendel</option>
+                    <option value="Teedosen-Set (3er Set)">Teedosen-Set (3er Set)</option>
                 </select>
 
                 <label for="menge">Menge:</label>
