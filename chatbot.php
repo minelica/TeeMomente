@@ -40,7 +40,7 @@ include('view/menue.php');
                     if (my_str_contains(strtolower($product['name']), $prompt) || my_str_contains(strtolower($key), $prompt)) {
                         echo '<div class="product">';
                         echo '<p class="suche_name">' . $product['name'] . '</p>';
-                        echo '<img src="' . $product['image'] . '" alt="' . $product['name'] . '">';
+                        echo '<img src="' . $product['image'] . '" alt="' . $product['name'] . '" . class="product-img">';
                         echo '<p>' . $product['description'] . '</p>';
                         echo '<p>Preis: ' . $product['price'] . '</p>';
                         echo '<p>Verpackung: ' . $product['packaging'] . '</p>';

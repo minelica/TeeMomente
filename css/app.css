@@ -118,6 +118,7 @@ footer {
    border-radius: 8px;
    width: 500px;
 }
+
 .container {
    display: flex;
    align-items: center;
@@ -213,6 +214,12 @@ td {
 .suche_name {
    font-size: 24px;
    font-weight: bold;
+}
+
+.product img {
+   width: 300px;
+   height: auto;
+   border-radius: 8px;
 }
 
 /* Styles für bestellung.php */
