@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: text/html; charset=utf-8');
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -25,13 +26,15 @@ if (isset($_POST["Bestellen"])) {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port = 465;
 
+        $mail->CharSet = 'UTF-8';
+        
         $mail->setFrom('teemomente.info@gmail.com');
 
         $mail->addAddress($email);
 
         $mail->isHTML(true);
 
-        $mail->Subject = "Bestellbestaetigung TeeMomente";
+        $mail->Subject = "Bestellbestätigung TeeMomente";
         $message = "Hallo $name,\n\n";
         $message .= "Ihre Bestellung wurde erfolgreich aufgegeben:\n\n";
         $message .= "Name: $name\n";
