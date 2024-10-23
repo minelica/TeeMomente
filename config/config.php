@@ -91,26 +91,4 @@ $config = array(
         )
     )
 );
-
-function createPayload($prompt)
-{
-    global $config;
-    return array(
-        'model' => $config['llm_model'],
-        'system' => $config['system_prompt'],
-        'prompt' => trim($prompt),
-        'stream' => false,
-    );
-}
-
-function ollama_api_call($payload)
-{
-    $curl = curl_init();
-    curl_setopt($curl, CURLOPT_URL, 'http://localhost:11434/api/generate');
-    curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($payload));
-    curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
-    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-    $response = curl_exec($curl);
-    curl_close($curl);
-    return json_decode($response, true);
-}
+?>

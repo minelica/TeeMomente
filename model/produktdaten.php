@@ -1,3 +1,4 @@
+<!-- Liste der Produkte mit ihren Eigenschaften -->
 <?php
 $products = array(
     'gruener_tee' => array(

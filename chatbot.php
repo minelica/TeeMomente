@@ -24,6 +24,7 @@ include('view/menue.php');
             </form>
             <?php
             include 'config/config.php';
+            include 'model/funktionen.php';
 
             if (!function_exists('my_str_contains')) {
                 function my_str_contains(string $haystack, string $needle): bool
