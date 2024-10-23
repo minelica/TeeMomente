@@ -50,14 +50,14 @@ $config = array(
         'matcha_besen' => array(
             'name' => 'Teezubehör - Matcha-Besen (Chasen)',
             'description' => 'Ein traditioneller Bambusbesen zum Zubereiten von Matcha-Tee',
-            'price' => '9,99 €',
+            'price' => '12,99 €',
             'packaging' => 'Kartonverpackung',
             'image' => 'img/Produkt7.jpg'
         ),
         'teekanne' => array(
             'name' => 'Teezubehör - Teekanne aus Gusseisen',
             'description' => 'Eine hochwertige Teekanne aus Gusseisen mit Teesieb',
-            'price' => '29,99 €',
+            'price' => '39,99 €',
             'packaging' => 'Kartonverpackung',
             'image' => 'img/Produkt8.jpg'
         ),
@@ -78,14 +78,14 @@ $config = array(
         'bio_honig' => array(
             'name' => 'Bio-Honig - Lavendel',
             'description' => 'Ein hochwertiger Bio-Honig mit Lavendelaroma',
-            'price' => '5,99 €',
+            'price' => '9,99 €',
             'packaging' => 'Glasflasche',
             'image' => 'img/Produkt11.jpg'
         ),
         'teedosen_set' => array(
             'name' => 'Teedosen-Set (3er Set)',
             'description' => 'Ein Set aus drei Teedosen in verschiedenen Größen',
-            'price' => '9,99 €',
+            'price' => '15,99 €',
             'packaging' => 'Kartonverpackung',
             'image' => 'img/Produkt12.jpg'
         )
