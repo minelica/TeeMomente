@@ -6,6 +6,7 @@
   - [Verwendung](#verwendung)
     - [Beispiel für eine Anfrage im Chatbot:](#beispiel-für-eine-anfrage-im-chatbot)
   - [E-Mail-Versand](#e-mail-versand)
+  - [Hinweis zu SMTP-Zugangsdaten](#hinweis-zu-smtp-zugangsdaten)
   - [Technologien](#technologien)
 
 ## Einführung
@@ -29,6 +30,11 @@ Der Chatbot zeigt dann die Eigenschaften und das Bild des Kamillentees an.
 
 ## E-Mail-Versand
 Die Webseite verwendet PHPMailer zum Versenden von E-Mails. Wenn ein Nutzer der Webseite eine Bestellung aufgibt, muss er seine Daten eingeben und das gewünschte Produkt sowie die Menge auswählen. Danach erhält er eine E-Mail als Bestellbestätigung von TeeMomente Team.
+
+## Hinweis zu SMTP-Zugangsdaten
+In diesem Projekt sind die SMTP-Zugangsdaten im Code enthalten und im GitHub-Repository sichtbar.
+
+**Achtung:** Dies ist nur für dieses kleine Uni-Projekt so eingerichtet und dient lediglich zu Demonstrationszwecken. Für ein produktives Projekt ist es nicht sicher, Zugangsdaten in den Quellcode einzubinden oder in öffentlichen Repositories abzulegen.
 
 ## Technologien
 In diesem Projekt wurden folgende Technologien verwendet:
