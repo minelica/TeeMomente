@@ -1,8 +1,6 @@
-# TeeMomente
+# TeeMomente 🍵
 
 ## Inhaltsverzeichnis
-- [TeeMomente](#teemomente)
-  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
   - [Einführung](#einführung)
   - [Installation](#installation)
   - [Verwendung](#verwendung)
@@ -11,13 +9,12 @@
   - [Technologien](#technologien)
 
 ## Einführung
-TeeMomente ist eine Webseite für einen Teeladen, der eine Vielzahl von Teesorten und Teezubehör anbietet. Die Webseite enthält einen Chatbot, der den Kunden bei der Produktsuche unterstützt. Der Chatbot kann auf Anfragen wie "Kamille" reagieren und die entsprechenden Produkte mit ihren Eigenschaften und Bildern anzeigen.
+TeeMomente 🍵 ist eine Webseite für einen Teeladen, der eine Vielzahl von Teesorten und Teezubehör anbietet. Die Webseite enthält einen Chatbot, der den Kunden bei der Produktsuche unterstützt. Der Chatbot kann auf Anfragen wie "Kamille" reagieren und die entsprechenden Produkte mit ihren Eigenschaften und Bildern anzeigen.
 
 ## Installation
 Anweisungen zur Installation des Projekts:
 1. Klonen Sie das Repository: `git clone https://github.com/minelica/TeeMomente.git`
 2. Navigieren Sie zum Projektverzeichnis: `cd TeeMomente`
-3. Installieren Sie die Abhängigkeiten: `npm install`
 
 ## Verwendung
 Um die Webseite zu nutzen, folgen Sie diesen Schritten:
@@ -26,7 +23,7 @@ Um die Webseite zu nutzen, folgen Sie diesen Schritten:
 3. Geben Sie im Chatbot-Fenster eine Anfrage ein, z.B. "Kamille", um Informationen über das entsprechende Produkt zu erhalten.
 
 ### Beispiel für eine Anfrage im Chatbot:
-Kamille
+*Kamille* wird in die Suchleiste eingegeben.
 
 Der Chatbot zeigt dann die Eigenschaften und das Bild des Kamillentees an.
 
@@ -39,4 +36,3 @@ In diesem Projekt wurden folgende Technologien verwendet:
 - **XAMPP**: Eine Entwicklungsumgebung, die Apache, MySQL, PHP und Perl enthält.
 - **Flowbite**: Eine UI-Bibliothek, die auf Tailwind CSS basiert und für die Gestaltung der Benutzeroberfläche verwendet wird.
 - **PHPMailer**: Eine Bibliothek zum Versenden von E-Mails.
-- **Node.js und npm**: Für die Verwaltung von Abhängigkeiten und das Erstellen von Frontend-Assets.
